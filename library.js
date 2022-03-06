@@ -80,7 +80,7 @@ function fetchBooksDetails () {
     library.map((book)=>{
         booksList.innerHTML += book_row(book);     
     })
-
+    
     fetchInputRow();
 }
 
